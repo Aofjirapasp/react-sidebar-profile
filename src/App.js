@@ -12,6 +12,7 @@ import {
 } from "@material-ui/icons";
 import Item from "./component/Item";
 import { useState } from "react";
+import logo from './img/aof.jpg';
 function App() {
   const [open, setOpen] = useState(true);
 
@@ -104,10 +105,7 @@ function App() {
               cursor: "pointer",
             }}
           >
-            <img
-              src="https://ae01.alicdn.com/kf/H5be6a0fa5f584a8a8420da2a7d4bc809r/RBRARE-Polaroid-Men-s-Goggle-Driving-Sunglasses-Men-Classic-Low-Profile-Sun-Glasses-For-Men-High.jpg"
-              alt="profile_img"
-            />
+            <img src={logo} alt="profile" />
           </motion.div>
           {/* groups */}
           <div className="groups">
